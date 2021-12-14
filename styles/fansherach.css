@@ -116,8 +116,6 @@ nav a{
     content: "";
    
     display: block;
-    left: 0;
-    top: 0;
     width: 80%;
     height: 100%;
     z-index: 1;
@@ -127,8 +125,6 @@ nav a{
    
     width: 100%;
     color: #8d3400;
-    left: 0;
-    top:  10;
     padding: 1em;
     font-weight: 700;
     z-index: 2;
