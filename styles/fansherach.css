@@ -166,9 +166,7 @@ nav a{
     opacity: .6;
     transform: scale(1.1);
 }
-.all-card{
-    margin-top: -100000px;
-}
+
 .construction {
     margin-top: 15%;
     align-items: center;
@@ -215,43 +213,52 @@ footer a, h1{
 .character-grid{
     display: grid;
     grid-template-columns: .5fr 1fr 1fr 1fr .25fr;
+    grid-template-rows: 1fr 18fr;
+
     
    
     
-    font-size: 30px;
+    font-size: 25px;
 }
 .timeline-grid{
     display: grid;
-    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 2fr  0.12fr 0.0fr 0.12fr 2fr .5fr;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr 2fr  0.12fr 0.0fr 0.12fr 2fr .5fr;
+    
 }
 .book-name{
     grid-column: 3/4;
     background-color: #F26B1E;
     border: 4px solid #9aa0be;
-    height: 20px;
     grid-row: 1/2;
 }
 .talking-character{
     grid-column: 2/3;
     grid-row: 2/3;
+    margin: 10px;
 }
 .talked-to-character{
     grid-column: 3/4;
     grid-row: 2/3;
+    margin: 10px;
+    
     
 }
 .place{
     grid-column: 4/5;
     grid-row: 2/3;
+    margin: 10px;
 
 }
 .quotes-title{
     grid-column: 6/7;
+    justify-self: center;
 }
 .timeline-title{
     grid-column: 10/11;
+    justify-self: center;
 }
 .quotes{
+    grid-row: 2/3;
     grid-column: 6/7;
     font-size: 20px;
 }
@@ -266,7 +273,52 @@ footer a, h1{
     width: 100%;
     font-size: 9px;
 }
+hr{
+    background-color: black;
+    border: none;
+    height: 2px;
+    width: 100%;
+}
+.hr-one{
+    grid-column: 7/8;
+}
+.hr-two{
+    grid-column: 9/10;
+}
 
+.hr-one hr:nth-of-type(1){
+    margin-top: 51px;
+}
+.hr-one hr:nth-of-type(2){
+    margin-top: 138px;
+}
+.hr-one hr:nth-of-type(3){
+    margin-top: 138px;
+}
+.hr-one hr:nth-of-type(4){
+    margin-top: 164px;
+}
+.hr-one hr:nth-of-type(5){
+    margin-top: 130px;
+}
+.hr-one hr:nth-of-type(6){
+    margin-top: 165px;
+}
+.hr-one hr:nth-of-type(7){
+    margin-top: 220px;
+}
+.hr-one hr:nth-of-type(8){
+    margin-top: 400px;
+}
+.hr-two hr:nth-of-type(1){
+    margin-top: 145px;
+}
+.hr-two hr:nth-of-type(2){
+    margin-top: 545px;
+}
+.hr-two hr:nth-of-type(3){
+    margin-top: 550px;
+}
 
 .timeline{
     grid-column: 10/11;
